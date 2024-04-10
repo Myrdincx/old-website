@@ -2,7 +2,7 @@ base_url = "https://myrdincx.github.io"
 theme = "tabi"
 
 title = "~/Myrdin"
-description = "Myrdin is a psychology/sociology student based in Belgium. Interested in linguistics, computers and more!"
+description = "Myrdin is a psychology/sociology student based in Belgium. Interested in linguistics, stargazing, photography and more!"
 author = "Myrdin"
 
 generate_feed = true

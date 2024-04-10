@@ -1,0 +1,85 @@
+base_url = "https://example.com"
+theme = "tabi"
+
+title = "~/Myrdin"
+description = "Myrdin is a psychology/sociology student based in Belgium"
+author = "Myrdin"
+
+generate_feed = true
+compile_sass = true
+minify_html = false
+
+taxonomies = [{name = "tags", feed = true}]
+
+build_search_index = true
+default_language = "en"
+
+[search]
+include_title = true
+include_description = true
+include_path = true
+include_content = true
+
+index_format = "elasticlunr_json"
+
+[markdown]
+highlight_code = true
+highlight_theme = "css"
+smart_punctuation = true
+render_emoji = true
+
+external_links_target_blank = true
+
+[link_checker]
+skip_anchor_prefix = [
+    "https://github.com/",
+]
+
+[extra]
+theme_switcher = true
+default_theme = "dark"
+skin = "lowcontrast_orange"
+browser_theme_color = ["#ffffff", "#000000"]
+stylesheets = []
+
+remote_repository_url = "https://github.com/myrdincx/myrdincx.github.io/"
+remote_repository_git_platform = "github"
+remote_repository_branch = "main"
+
+show_remote_changes = true
+show_remote_source = true
+
+copy_button = true # copy button for codeblocks
+show_reading_time = true #reading time of a page
+footnote_backlinks = false #backlinks to footnotes 
+katex = false # katex disabled global, can be changed in page/section
+quick_navigation_buttons = true
+
+long_date_format = "%d %B %Y"
+short_date_format = ""
+
+seperator = "."
+invert_title_order = true
+compact_tags = false
+
+favicon = "/img/orange-pfp-modified.png" # full path starting from "static"
+favicon_emoji = "🐈"
+
+menu = [
+    { name = "/me", url = "about/" },
+    { name = "/blog", url = "blog/" },
+    { name = "/projects", url = "projects/" },
+    { name = "/archive", url = "archive/" },
+]
+
+feed_icon = true # rss icon if enabled and set to true
+
+email = "bXlyZGluY3hAZ21haWwuY29t" # email protection
+encode_plaintext_email = true # email protection
+
+socials = [
+    { name = "github", url = "https://github.com/myrdincx/", icon = "github" },
+    { name = "instagram", url = "https://instagram.com/myrdincx", icon = "instagram" },
+    { name = "spotify", url = "https://open.spotify.com/user/i1yly8kh8edp57h78r4flk797", icon = "spotify" },
+    { name = "discord", url = "https://discordapp.com/users/300300616335622154/", icon = "discord" },
+]

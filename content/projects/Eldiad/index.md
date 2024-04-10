@@ -4,12 +4,12 @@ description = "This is my first ever self-made conlang. It's still a WIP!"
 weight = 10
 
 [extra]
-local_image = "projects/Eldiad/img/cover.jpg"
+local_image = "./projects/Eldiad/img/cover.jpg"
 canonical_url = "https://myrdincx.github.io/projects/eldiad"
 footnote_backlinks = true
 +++
 
-<img src="/projects/Eldiad/img/cover2-modified.png">
+<img src="./projects/Eldiad/img/cover2-modified.png">
 
 **Eldiad** is a conlang based on many Western/Northern-European languages.
 Sadly, I have not worked on this in quite some time, there is still a lot that needs to be fixed.

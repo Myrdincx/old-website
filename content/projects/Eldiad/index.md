@@ -9,7 +9,7 @@ canonical_url = "https://myrdincx.github.io/projects/eldiad"
 footnote_backlinks = true
 +++
 
-<img src="/projects/eldiad/img/cover2-modified.png">
+<img src="img/cover2-modified.png">
 
 **Eldiad** is a conlang based on many Western/Northern-European languages.
 Sadly, I have not worked on this in quite some time, there is still a lot that needs to be fixed.

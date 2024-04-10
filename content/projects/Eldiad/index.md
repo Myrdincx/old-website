@@ -5,6 +5,7 @@ weight = 10
 
 [extra]
 local_image = "projects/Eldiad/img/cover.jpg"
+canonical_url = "https://myrdincx.github.io/projects/eldiad"
 footnote_backlinks = true
 +++
 

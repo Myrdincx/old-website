@@ -1,19 +1,18 @@
-name: Deploy Zola site to Pages
+name: Zola on GitHub Pages
 
-on:
-  push:
-    branches:
-      - main
+on: 
+ push:
+  branches:
+   - main
 
 jobs:
-  deploy:
+  build:
+    name: Publish site
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Build and deploy
-        # Hotfix used as per https://github.com/shalzz/zola-deploy-action/issues/81
-        uses: shalzz/zola-deploy-action@v0.17.2-1
-        env:
-          PAGES_BRANCH: gh-pages
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout main
+      uses: actions/checkout@v4
+    - name: Build and deploy
+      uses: shalzz/zola-deploy-action@v0.18.0
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

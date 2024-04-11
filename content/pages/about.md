@@ -15,7 +15,7 @@ As for now, my current interests are:
 - **Linguistics:** Languages and how they work have been an interest of mine for quite some time, I also love to **read**.
 - **Computers:** As of lately, I have been tinkering around with Linux, trying to figure out how it works (more on that later). 
 - **Music:** Playing the alto saxophone, I absolutely love music.
-- **Cats:** Cats are truly the most amazing beings on this planet.
+- **Cats:**[^1] Cats are truly the most amazing beings on this planet.
   
 ## Languages
 Below, I'll outline the languages I speak and my proficiency level in each:
@@ -26,6 +26,8 @@ Below, I'll outline the languages I speak and my proficiency level in each:
 
 ## Contact me
 You can reach out to me through various means, conveniently listed at the bottom of each page on this website.
+
+[^1] The picture on the homepage was made by my sister. Credits to her :)
 
 
 

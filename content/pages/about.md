@@ -26,7 +26,7 @@ Below, I'll outline the languages I speak and my proficiency level in each:
 
 ## Contact me
 You can reach out to me through various means, conveniently listed at the bottom of each page on this website.
-
+___
 [^1] The picture on the homepage was made by my sister. Credits to her :)
 
 

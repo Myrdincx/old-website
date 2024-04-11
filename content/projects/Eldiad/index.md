@@ -5,7 +5,7 @@ weight = 10
 
 [extra]
 local_image = "projects/eldiad/img/cover.jpg"
-canonical_url = "https://myrdincx.github.io/projects/eldiad"
+canonical_url = "https://myrdin.is-a.dev/projects/eldiad"
 social_media_card = "img/cover2-modified.png"
 footnote_backlinks = true
 +++

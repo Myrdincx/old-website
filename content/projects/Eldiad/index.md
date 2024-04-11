@@ -25,7 +25,7 @@ Sadly, I have not worked on this in quite some time, there is still a lot that n
 ## WIP?
 
 In case I do ever pick this project back up, I would like to add the following features:  
-- **Lore:** Adding a reason as for why there are long vowels (transition from Andetísian and Eldiad)  
+- **Lore:** Adding a reason as for why there are long vowels (transition from Andetísian and Eldiad).  
 - **Vocabulary:** Adding more words to the conlang, making it possible to form proper sentences.  
 - **Grammar:** Adding more types of tenses, in order to form different types of sentences.  
 - **Documentation:** Making a proper documentation with all of the above included.  

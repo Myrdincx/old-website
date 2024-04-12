@@ -42,10 +42,9 @@ skin = "lowcontrast_orange"
 browser_theme_color = ["#ffffff", "#000000"]
 stylesheets = []
 
-remote_repository_url = "https://github.com/myrdincx/myrdincx.github.io/"
-remote_repository_git_platform = "github"
+remote_repository_url = "https://github.com/myrdincx/myrdincx.github.io"
+remote_repository_git_platform = "auto"
 remote_repository_branch = "main"
-
 show_remote_changes = true
 show_remote_source = true
 

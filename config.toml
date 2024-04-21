@@ -14,6 +14,18 @@ taxonomies = [{name = "tags", feed = true}]
 build_search_index = true
 default_language = "en"
 
+[languages.nl]
+title = "~/Myrdin"
+description = "Myrdin is een student Humane-Wetenschappen in België. Geïnteresseerd in talen, sterrenkunde, fotografie en meer!"
+author = "Myrdin"
+
+generate_feed = true
+compile_sass = true
+minify_html = false
+
+taxonomies = [{name = "tags", feed = true}]
+build_search_index = false
+
 [search]
 include_title = true
 include_description = true

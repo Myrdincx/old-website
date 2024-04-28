@@ -24,7 +24,7 @@ Hieronder geef ik een overzicht van de talen die ik spreek en mijn vaardigheidsn
 - **French:** basis
 - **Swedish:** aan het leren
 
-## Contact me
+## Contacteer mij
 U kunt op verschillende manieren contact met mij opnemen, handig vermeld onderaan elke pagina op deze website.
 ___
 [^1]: De foto van de kat op de homepagina is gemaakt door mijn zus. Credits naar haar :)

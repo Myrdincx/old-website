@@ -7,6 +7,7 @@ template = "section.html"
 [extra]
 section_path = "blog/_index.md"
 projects_path = "projects/_index.md"
+show_projects_first = true
 header = {title = "Hello! I'm Myrdin.", img= "/img/orange-pfp-modified.png", img_alt = "Myrdin"}
 max_posts = 4
 +++

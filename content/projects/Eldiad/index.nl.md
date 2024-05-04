@@ -2,6 +2,7 @@
 title = "Eldiad - een kunsttaal"
 description = "Dit is mijn eerste zelfgemaakte kunsttaal. Er is nog veel werk aan!"
 weight = 10
+date = 2024-04-11
 
 [extra]
 local_image = "projects/eldiad/img/cover.jpg"

@@ -2,6 +2,7 @@
 title = "Eldiad - a conlang"
 description = "This is my first ever self-made conlang. It's still a WIP!"
 weight = 10
+date = 2024-04-11
 
 [extra]
 local_image = "projects/eldiad/img/cover.jpg"

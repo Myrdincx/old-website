@@ -1,10 +1,10 @@
 +++
-title = "Posting soon!"
+title = "About this website!"
 date = 2024-04-10
-description = "This blog is a work in progress!"
+description = "In this short blog Ill be explaining why I made this website!"
 
 [taxonomies]
-tags = ["WIP"]
+tags = ["blog"]
 
 [extra]
 quick_navigation_buttons = true

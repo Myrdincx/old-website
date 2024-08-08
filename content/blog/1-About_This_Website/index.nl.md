@@ -1,10 +1,10 @@
 +++
-title = "Ik post binnenkort."
+title = "Over deze website"
 date = 2024-04-10
-description = "Deze blog is nog in de maak!"
+description = "In deze korte blog leg ik uit waarom ik deze website heb gemaakt."
 
 [taxonomies]
-tags = ["WIP"]
+tags = ["blog"]
 
 [extra]
 quick_navigation_buttons = true

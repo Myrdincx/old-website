@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="https://myrdin.is-a.dev/feed_style.xsl" type="text/xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:base="http://purl.org/atompub/base/1.0/" xml:lang="nl" xml:base="https:&#x2F;&#x2F;myrdin.is-a.dev">
+    <str:translations xmlns:str="https://github.com/welpo/tabi">
+        <str:about_feeds>Dit is een webfeed, ook wel Atom-feed genoemd. Abonneer u door de URL uit de adresbalk naar uw nieuwslezer te kopiëren. Ga naar About Feeds voor meer informatie en om aan de slag te gaan. Het is gratis.</str:about_feeds>
+        <str:visit_the_site>Bezoek website</str:visit_the_site>
+        <str:recent_posts>Recente berichten</str:recent_posts>
+    </str:translations><link rel="extra-stylesheet" href="https://myrdin.is-a.dev/skins/lowcontrast_orange.css?h=c11c6eecaac6cbd48633" /><title>~/Myrdin - blog</title>
+        <subtitle>Myrdin is een student Humane-Wetenschappen in België. Geïnteresseerd in talen, sterrenkunde, fotografie en meer!</subtitle>
+    <link href="https://myrdin.is-a.dev/nl/tags/blog/atom.xml" rel="self" type="application/atom+xml"/>
+    <link href="https://myrdin.is-a.dev/nl/"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-04-10T00:00:00+00:00</updated>
+    <id>https://myrdin.is-a.dev/nl/tags/blog/atom.xml</id><entry xml:lang="nl">
+        <title>Over deze website</title>
+        <published>2024-04-10T00:00:00+00:00</published>
+        <updated>2024-04-10T00:00:00+00:00</updated>
+        <author>
+            <name>Myrdin</name>
+        </author>
+        <link rel="alternate" href="https://myrdin.is-a.dev/nl/blog/1-about-this-website/" type="text/html"/>
+        <id>https://myrdin.is-a.dev/nl/blog/1-about-this-website/</id>
+        <summary type="html">In deze korte blog leg ik uit waarom ik deze website heb gemaakt.</summary>
+        </entry>
+</feed>

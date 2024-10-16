@@ -1,0 +1,411 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="base" content="https://myrdin.is-a.dev">
+
+    
+    <title>Eldiad - a conlang • ~/Myrdin</title>
+
+    
+    
+        <link rel="icon" type="image/png" href="https://myrdin.is-a.dev/img/orange-pfp-modified.png"/>
+    
+    
+        <link rel=icon href='data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 105 55"><text y=".7em" font-size="82">🐈</text></svg>'>
+    
+
+    
+    <link rel="alternate" type="application/atom+xml" title="~/Myrdin" href="https://myrdin.is-a.dev/atom.xml">
+
+    
+    
+    
+        <link rel="stylesheet" href="https://myrdin.is-a.dev/inter_subset_en.css?h=d8cf4ad058d6c3a4015b">
+    
+
+    
+        <link rel="stylesheet" href="https://myrdin.is-a.dev/main.css?h=0c4404f5c668365718f1" />
+        <link rel="stylesheet" href="https://myrdin.is-a.dev/skins/lowcontrast_orange.css?h=c11c6eecaac6cbd48633" />
+
+    <meta name="color-scheme" content="light dark" />
+        <meta name="theme-color" media="(prefers-color-scheme: light)" content="#ffffff" />
+        <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#000000" />
+        <meta name="description" content="This is my first ever self-made conlang. It&#x27;s still a WIP!" />
+        <meta property="og:description" content="This is my first ever self-made conlang. It&#x27;s still a WIP!" />
+
+    
+        <meta name="robots" content="index, nofollow" />
+    
+
+    <meta property="og:title" content="Eldiad - a conlang" />
+    <meta property="og:type" content="article" />
+
+    
+        
+        
+        
+
+        
+        
+            
+        
+
+        
+        <meta property="og:image" content="https://myrdin.is-a.dev/projects/Eldiad/img/cover2-modified.png?h=81098e945fabaecbbd99" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="530" />
+        <meta name="twitter:image" content="https://myrdin.is-a.dev/projects/Eldiad/img/cover2-modified.png?h=81098e945fabaecbbd99" />
+        <meta name="twitter:card" content="summary_large_image" />
+    
+
+    <meta property="og:locale:alternate" content="nl_NL" />
+
+        <link rel="alternate" hreflang="nl" href="https://myrdin.is-a.dev/nl/projects/eldiad/" /><meta property="og:locale:alternate" content="en_GB" />
+
+        <link rel="alternate" hreflang="en" href="https://myrdin.is-a.dev/projects/eldiad/" />
+
+    <link rel="canonical" href="https:&#x2F;&#x2F;myrdin.is-a.dev&#x2F;projects&#x2F;eldiad" />
+        <meta property="og:url" content="https:&#x2F;&#x2F;myrdin.is-a.dev&#x2F;projects&#x2F;eldiad" /><meta property="og:site_name" content="~&#x2F;Myrdin"><meta http-equiv="Content-Security-Policy"
+content="default-src 'self';font-src &#x27;self&#x27; data:;img-src &#x27;self&#x27; https:&#x2F;&#x2F;* data:;media-src &#x27;self&#x27;;style-src &#x27;self&#x27;;frame-src player.vimeo.com https:&#x2F;&#x2F;www.youtube-nocookie.com;connect-src 'self';script-src 'self' 'self'">
+
+        <noscript><link rel="stylesheet" href="https://myrdin.is-a.dev/no_js.css"/></noscript>
+        <script type="text/javascript" src="https://myrdin.is-a.dev/js/initializeTheme.min.js"></script>
+        <script defer src="https://myrdin.is-a.dev/js/themeSwitcher.min.js"></script>
+        <script defer src="https://myrdin.is-a.dev/js/searchElasticlunr.min.js?h=2950d57f80c9fa78f37e"></script>
+
+        </head>
+
+
+<body>
+    <header>
+    <nav class="navbar">
+        <div class="nav-title">
+            <a class="home-title" href=https://myrdin.is-a.dev>~&#x2F;Myrdin</a>
+        </div>
+            <div class="nav-navs">
+                <ul>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://myrdin.is-a.dev/about/">
+                                &#x2F;me
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://myrdin.is-a.dev/blog/">
+                                &#x2F;blog
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://myrdin.is-a.dev/projects/">
+                                &#x2F;projects
+                                </a>
+                            </li>
+                        
+                            <li>
+                                
+                                <a class="nav-links no-hover-padding" href="https://myrdin.is-a.dev/archive/">
+                                &#x2F;archive
+                                </a>
+                            </li>
+                        <li class="js">
+                        <div role="button" tabindex="0" id="search-button" class="search-icon interactive-icon" title="Click or press $SHORTCUT to open search" aria-label="Click or press $SHORTCUT to open search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                            </svg>
+                        </div>
+                    </li>
+
+                    
+                    
+                    <li class="language-switcher">
+    <details class="dropdown">
+        <summary role="button" aria-haspopup="true" title="Language selection" aria-label="Language selection">
+            <div class="language-switcher-icon"></div>
+        </summary>
+        <div class="dropdown-content" role="menu">English<a role="menuitem" lang="nl" aria-label="Dutch" href="https:&#x2F;&#x2F;myrdin.is-a.dev/nl/projects/eldiad/">Dutch</a></div>
+    </details>
+</li>
+
+
+                    <li class="theme-switcher-wrapper js"><div
+        title="Toggle dark&#x2F;light mode"
+        class="theme-switcher"
+        tabindex="0"
+        role="button"
+        aria-label="Toggle dark mode"
+        aria-pressed="false">
+    </div><div
+        title="Reset mode to default"
+        class="theme-resetter"
+        tabindex="0"
+        role="button"
+        aria-hidden="true"
+        aria-label="Reset mode to default">
+    </div>
+
+</li>
+</ul>
+            </div>
+        
+    </nav>
+</header>
+
+    <div class="content">
+
+        
+        
+
+
+
+
+<main>
+    <article>
+        <h1 class="article-title">
+            Eldiad - a conlang
+        </h1>
+
+        <ul class="meta">
+            
+
+            
+            
+
+            
+        </ul>
+
+        
+
+        
+        
+
+        <section class="body">
+            
+            
+            <img src="img/cover2-modified.png" alt="cover image">
+<p><strong>Eldiad</strong> is a conlang based on many Western/Northern-European languages.
+Sadly, I have not worked on this in quite some time, there is still a lot that needs to be fixed.</p>
+<h4 id="documentation" class="centered-text"><a class="header-anchor no-hover-padding" href="#documentation" aria-label="Anchor link for: documentation"><span class="link-icon" aria-hidden="true"></span></a>
+• <a rel="noopener" target="_blank" href="https://docs.google.com/spreadsheets/d/1MrxyKX2T18oo2gWFBczvF3zbGnEAAOSkji3GRbtCR9E/edit?usp=sharing">Documentation</a> •</h4>
+<h2 id="main-features"><a class="header-anchor no-hover-padding" href="#main-features" aria-label="Anchor link for: main-features"><span class="link-icon" aria-hidden="true"></span></a>
+Main Features</h2>
+<ul>
+<li><strong>Sound Inventory:</strong><sup class="footnote-reference"><a href="#1">1</a></sup> Eldiad has a worked out sound inventory, based on the <a rel="noopener" target="_blank" href="https://en.wikipedia.org/wiki/International_Phonetic_Alphabet">International Phonetics Alphabet</a>, including a chart with the simplified and written form in Eldiad.</li>
+<li><strong>Syntax:</strong> Eldiad has a few simple root words with their according translations, and a basic word order [V(A)S(A)O].</li>
+<li><strong>Grammar:</strong> Eldiad has 5 worked out types of tenses, including their formation, formation in IPA and an example. On top of that, a suffix for plurality was added.</li>
+</ul>
+<h2 id="wip"><a class="header-anchor no-hover-padding" href="#wip" aria-label="Anchor link for: wip"><span class="link-icon" aria-hidden="true"></span></a>
+WIP?</h2>
+<p>In case I do ever pick this project back up, I would like to add the following features:</p>
+<ul>
+<li><strong>Lore:</strong> Adding a reason as for why there are long vowels (transition from Andetísian and Eldiad).</li>
+<li><strong>Vocabulary:</strong> Adding more words to the conlang, making it possible to form proper sentences.</li>
+<li><strong>Grammar:</strong> Adding more types of tenses, in order to form different types of sentences.</li>
+<li><strong>Documentation:</strong> Making a proper documentation with all of the above included.</li>
+</ul>
+<hr />
+<div class="footnote-definition" id="1"><sup class="footnote-definition-label">1</sup>
+<p>Note about the sound inventory: The term “liquid” isn’t fully correct but was used to simplify things.<br />
+<sup class="footnote-reference"><a href="#2">2</a></sup>: The image was generated by Microsoft Copilot (I will use another image soon).</p>
+</div>
+
+        </section>
+
+        
+        
+        
+        
+
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+            
+            
+            
+
+            
+        
+
+        
+        
+
+        
+        
+
+    </article>
+</main>
+
+    <div id="button-container">
+        
+        
+            <div id="toc-floating-container">
+                <input type="checkbox" id="toc-toggle" class="toggle"/>
+                <label for="toc-toggle" class="overlay"></label>
+                <label for="toc-toggle" id="toc-button" class="button" title="Toggle Table of Contents">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960"><path d="M414.82-193.094q-18.044 0-30.497-12.32-12.453-12.319-12.453-30.036t12.453-30.086q12.453-12.37 30.497-12.37h392.767q17.237 0 29.927 12.487 12.69 12.486 12.69 30.203 0 17.716-12.69 29.919t-29.927 12.203H414.82Zm0-244.833q-18.044 0-30.497-12.487Q371.87-462.9 371.87-480.45t12.453-29.92q12.453-12.369 30.497-12.369h392.767q17.237 0 29.927 12.511 12.69 12.512 12.69 29.845 0 17.716-12.69 30.086-12.69 12.37-29.927 12.37H414.82Zm0-245.167q-18.044 0-30.497-12.32t-12.453-30.037q0-17.716 12.453-30.086 12.453-12.369 30.497-12.369h392.767q17.237 0 29.927 12.486 12.69 12.487 12.69 30.203 0 17.717-12.69 29.92-12.69 12.203-29.927 12.203H414.82ZM189.379-156.681q-32.652 0-55.878-22.829t-23.226-55.731q0-32.549 23.15-55.647 23.151-23.097 55.95-23.097 32.799 0 55.313 23.484 22.515 23.484 22.515 56.246 0 32.212-22.861 54.893-22.861 22.681-54.963 22.681Zm0-245.167q-32.652 0-55.878-23.134-23.226-23.135-23.226-55.623 0-32.487 23.467-55.517t56.12-23.03q32.102 0 54.721 23.288 22.62 23.288 22.62 55.775 0 32.488-22.861 55.364-22.861 22.877-54.963 22.877Zm-.82-244.833q-32.224 0-55.254-23.288-23.03-23.289-23.03-55.623 0-32.333 23.271-55.364 23.272-23.03 55.495-23.03 32.224 0 55.193 23.288 22.969 23.289 22.969 55.622 0 32.334-23.21 55.364-23.21 23.031-55.434 23.031Z"/></svg>
+                </label>
+                <div class="toc-content">
+                    
+
+<div class="toc-container">
+    
+
+    <ul>
+        
+            
+            
+                <li><a href="https://myrdin.is-a.dev/projects/eldiad/#documentation">• Documentation •</a>
+                    
+                </li>
+            
+        
+            
+            
+                <li><a href="https://myrdin.is-a.dev/projects/eldiad/#main-features">Main Features</a>
+                    
+                </li>
+            
+        
+            
+            
+                <li><a href="https://myrdin.is-a.dev/projects/eldiad/#wip">WIP?</a>
+                    
+                </li>
+            
+        
+    </ul>
+</div>
+
+
+                </div>
+            </div>
+        
+
+        
+        
+
+        
+        <a href="#" id="top-button" class="no-hover-padding" title="Go to the top of the page">
+            <svg viewBox="0 0 20 20" fill="currentColor"><path d="M3.293 9.707a1 1 0 010-1.414l6-6a1 1 0 011.414 0l6 6a1 1 0 01-1.414 1.414L11 5.414V17a1 1 0 11-2 0V5.414L4.707 9.707a1 1 0 01-1.414 0z"/></svg>
+        </a>
+    </div>
+
+
+<span id="copy-success" class="hidden">
+        Copied!
+    </span>
+    <span id="copy-init" class="hidden">
+        Copy code to clipboard
+    </span>
+    <script defer src="https://myrdin.is-a.dev/js/copyCodeToClipboard.min.js"></script><script defer src="https://myrdin.is-a.dev/js/footnoteBacklinks.min.js"></script>
+    </div>
+    <footer>
+    <section>
+        <nav class="socials nav-navs">
+                <ul><li>
+                        <a class="nav-links no-hover-padding social" rel="noopener" target=_blank href=https://myrdin.is-a.dev/atom.xml>
+                        <img alt="feed" title="feed" src="https://myrdin.is-a.dev/social_icons/rss.svg">
+                        </a>
+                    </li><li class="js"><a class="nav-links no-hover-padding social" href="#" data-encoded-email="bXlyZGluY3hAZ21haWwuY29t"><img alt="email" title="email" src="https://myrdin.is-a.dev/social_icons/email.svg">
+                            </a>
+                        </li>
+                        <li>
+                            <a class="nav-links no-hover-padding social" rel="noopener me" target=_blank href=https://github.com/myrdincx/>
+                                <img alt=github title=github src="https://myrdin.is-a.dev/social_icons/github.svg">
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="nav-links no-hover-padding social" rel="noopener me" target=_blank href=https://open.spotify.com/user/i1yly8kh8edp57h78r4flk797>
+                                <img alt=spotify title=spotify src="https://myrdin.is-a.dev/social_icons/spotify.svg">
+                            </a>
+                        </li>
+                    
+                        <li>
+                            <a class="nav-links no-hover-padding social" rel="noopener me" target=_blank href=https://discordapp.com/users/300300616335622154/>
+                                <img alt=discord title=discord src="https://myrdin.is-a.dev/social_icons/discord.svg">
+                            </a>
+                        </li>
+                    
+                </ul>
+            
+        </nav>
+
+        
+        <nav class="nav-navs">
+        </nav>
+
+        <div class="credits">
+            <small>
+                
+
+                
+                Powered by
+                <a rel="noopener" target=_blank href="https://www.getzola.org">Zola</a>
+                &amp;
+                <a rel="noopener" target=_blank href="https://github.com/welpo/tabi">tabi</a>
+
+                •
+                    <a rel="noopener" target=_blank href="https:&#x2F;&#x2F;github.com&#x2F;myrdincx&#x2F;myrdincx.github.io">
+                        Site source
+                    </a></small>
+        </div>
+    </section>
+
+    <script src="https://myrdin.is-a.dev/js/decodeMail.min.js" async></script><div id="searchModal" class="search-modal js" role="dialog" aria-labelledby="modalTitle">
+    <h1 id="modalTitle" class="visually-hidden">Search</h1>
+    <div id="modal-content">
+        <div id="searchBar">
+            <div class="search-icon" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                    <path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/>
+                </svg>
+            </div>
+            <input id="searchInput" role="combobox" autocomplete="off" spellcheck="false" aria-expanded="false" aria-controls="results-container" placeholder="Search…"/>
+            <div id="clear-search" class="close-icon interactive-icon" tabindex="0" role="button" title="Clear search">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/>
+                </svg>
+            </div>
+        </div>
+        <div id="results-container">
+            <div id="results-info"><span id="zero_results"> No results</span>
+                <span id="one_results"> $NUMBER result</span>
+                <span id="many_results"> $NUMBER results</span><span id="two_results"> $NUMBER results</span>
+                <span id="few_results"> $NUMBER results</span>
+            </div>
+            <div id="results" role="listbox"></div>
+        </div>
+    </div>
+</div>
+</footer>
+
+</body>
+
+</html>
